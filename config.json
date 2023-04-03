@@ -1,0 +1,199 @@
+{
+    "name": "Homelab",
+    "children": [
+        {
+            "name": "Servers",
+            "children": [
+                {
+                    "name": "NetMox",
+                    "children": [
+                        {
+                            "name": "Management",
+                            "children": [
+                                {
+                                    "name": "Proxmox Web UI",
+                                    "url": "https://netmox.home.lan:8006"
+                                },
+                                {
+                                    "name": "iDRAC6 Enterprise",
+                                    "url": "https://idrac.netmox.home.lan"
+                                },
+                                {
+                                    "name": "OpenManage Server Administrator",
+                                    "url": "https://netmox.home.lan:1311"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Virtual Machines",
+                            "children": [
+                                {
+                                    "name": "pfSense",
+                                    "url": "https://pfsense.pve-1.home.lan"
+                                },
+                                {
+                                    "name": "Pi-hole",
+                                    "url": "http://pihole.pve-1.home.lan/admin"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MainMox",
+                    "children": [
+                        {
+                            "name": "Management",
+                            "children": [
+                                {
+                                    "name": "Proxmox Web UI",
+                                    "url": "https://mainmox.home.lan:8006"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Virtual Machines",
+                            "children": [
+                                {
+                                    "name": "NextCloud",
+                                    "url": "https://nc.pve-2.home.lan"
+                                },
+                                {
+                                    "name": "Homepage of Hell",
+                                    "url": "http://web.pve-2.home.lan:9000"
+                                },
+                                {
+                                    "name": "Gogs",
+                                    "url": "http://git.pve-2.home.lan:3000"
+                                },
+                                {
+                                    "name": "Backup NAS",
+                                    "url": "https://nas-backup.pve-2.home.lan"
+                                },
+                                {
+                                    "name": "Yacht",
+                                    "url": "http://yacht.pve-2.home.lan"
+                                },
+                                {
+                                    "name": "MotionEye",
+                                    "url": "http://motioneye.pve-2.home.lan:8765"
+                                },
+                                {
+                                    "name": "Deluge Torrent",
+                                    "url": "http://torrent.pve-2.home.lan:8112"
+                                },
+                                {
+                                    "name": "Jellyfin",
+                                    "url": "http://jellyfin.pve-2.home.lan:8080"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Containers",
+                            "children": [
+                                {
+                                    "name": "Uptime Kuma",
+                                    "url": "http://yacht.pve-2.home.lan:3001"
+                                },
+                                {
+                                    "name": "LibreSpeed Speedtest",
+                                    "url": "http://yacht.pve-2.home.lan:3002"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "TrueNAS",
+                    "children": [
+                        {
+                            "name": "Management",
+                            "children": [
+                                {
+                                    "name": "TrueNAS",
+                                    "url": "https://nas.home.lan"
+                                },
+                                {
+                                    "name": "iDRAC7 Enterprise",
+                                    "url": "https://idrac.nas.home.lan"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "NUT-Pi"
+                }
+            ]
+        },
+        {
+            "name": "Networking",
+            "children": [
+                {
+                    "name": "Routers",
+                    "children": [
+                        {
+                            "name": "pfSense",
+                            "children": [
+                                {
+                                    "name": "Management",
+                                    "url": "https://home.lan"
+                                },
+                                {
+                                    "name": "Logs",
+                                    "url": "https://home.lan/status_logs.php"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Switches",
+                    "children": [
+                        {
+                            "name": "HP J9450A",
+                            "children": [
+                                {
+                                    "name": "Web UI",
+                                    "url": "http://sw-1.home.lan"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "TP-Link TL-SG108PE",
+                            "children": [
+                                {
+                                    "name": "Web UI",
+                                    "url": "http://sw-3.home.lan"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Asus RT-AC66U",
+                            "children": [
+                                {
+                                    "name": "Web UI",
+                                    "url": "http://sw-2.home.lan"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Access Points",
+                    "children": [
+                        {
+                            "name": "TP-Link Archer C7",
+                            "children": [
+                                {
+                                    "name": "Web UI",
+                                    "url": "http://ap-1.home.lan"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
